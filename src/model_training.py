@@ -136,7 +136,7 @@ with mlflow.start_run(run_name="Classification_Model"):
     # -------------------------------
 
     mlflow.log_param("model_type", "RandomForestClassifier")
-    mlflow.log_param("n_estimators", 100)
+    mlflow.log_param("n_estimators", 50)
 
     # -------------------------------
     # Log Model
@@ -204,7 +204,7 @@ with mlflow.start_run(run_name="Regression_Model"):
     # -------------------------------
 
     mlflow.log_param("model_type", "RandomForestRegressor")
-    mlflow.log_param("n_estimators", 100)
+    mlflow.log_param("n_estimators", 50)
 
     # -------------------------------
     # Log Model
